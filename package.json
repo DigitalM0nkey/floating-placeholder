@@ -1,0 +1,25 @@
+{
+  "name": "@digitalm0nkey/floating-placeholder",
+  "version": "1.0.0",
+  "description": "Make your input labels appear as a placeholder which floats to the top on focus.",
+  "main": "floating-placeholder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalM0nkey/floating-placeholder.git"
+  },
+  "keywords": [
+    "placeholder",
+    "label",
+    "float",
+    "animation"
+  ],
+  "author": "Terrence Kuiper (@DigitalM0nkey)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DigitalM0nkey/floating-placeholder/issues"
+  },
+  "homepage": "https://github.com/DigitalM0nkey/floating-placeholder#readme"
+}

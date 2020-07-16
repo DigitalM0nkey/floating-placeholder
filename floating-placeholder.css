@@ -1,0 +1,40 @@
+.floating-placeholder {
+  position: relative;
+}
+
+.floating-placeholder label {
+  position: absolute;
+  margin-left: 15px !important;
+  left: 30;
+  top: 10px;
+  color: #999 !important;
+  background-color: Transparent;
+  z-index: 10;
+  transition: transform 500ms ease-out, font-size 1000ms ease-out;
+}
+
+.focused label {
+  padding: 0px 5px;
+  margin-left: 10px !important;
+  transform: translateY(-100%) !important;
+  font-size: 0.75em !important;
+  border-radius: 0.28571429rem;
+  animation: fade 1s forwards;
+}
+
+@keyframes fade {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.ui.active.selection.dropdown {
+  z-index: 11;
+}
+
+label {
+  user-select: none;
+}
